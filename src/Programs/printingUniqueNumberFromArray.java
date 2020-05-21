@@ -3,6 +3,8 @@ package Programs;
 import java.util.ArrayList;
 
 public class printingUniqueNumberFromArray {
+	
+	// Program asked in amazon interview..
 
 	public static void main(String[] args) { // TODO Auto-generated method stub
 
