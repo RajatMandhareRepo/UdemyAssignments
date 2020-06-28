@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="G:/new eclips/support/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/selenium jars/animal-sniffer-annotations-1.14.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/selenium jars/byte-buddy-1.8.15.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/selenium jars/checker-compat-qual-2.0.0.jar"/>
@@ -27,5 +30,6 @@
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/selenium jars/selenium-remote-driver-3.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/selenium jars/selenium-safari-driver-3.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/selenium jars/selenium-support-3.14.0.jar"/>
+	<classpathentry kind="lib" path="G:/Eclipse Oxygen/support/selenium-server-standalone-2.53.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

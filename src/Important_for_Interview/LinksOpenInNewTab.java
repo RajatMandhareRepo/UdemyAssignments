@@ -1,7 +1,6 @@
 package Important_for_Interview;
 
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -15,7 +14,7 @@ public class LinksOpenInNewTab {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\Browser Drivers\\81Version\\chromedriver.exe");//81 Version
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Admin/Downloads/chromedriver 83/chromedriver.exe");//83 Version
 		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
@@ -54,6 +53,8 @@ public class LinksOpenInNewTab {
 			System.out.println(driver.getTitle());
 			
 		}
+		
+		driver.quit();
 	}
 
 }
