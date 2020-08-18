@@ -14,7 +14,7 @@ public class Veggies {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\Browser Drivers\\81Version\\chromedriver.exe");//81 Version
+		System.setProperty("webdriver.chrome.driver", "C:/Users/Admin/Downloads/chromedriver 83/chromedriver.exe");//83 Version
 		//79 System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Downloads\\Browser Drivers\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
